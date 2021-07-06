@@ -788,9 +788,9 @@ var (
 func (e *Element) Html(outer bool) (string, error) {
 	var bs []byte
 	// args
-	couter := C.BOOL(C.FALSE)
+	couter := C.SBOOL(C.FALSE)
 	if outer {
-		couter = C.BOOL(C.TRUE)
+		couter = C.SBOOL(C.TRUE)
 	}
 	cparam := C.LPVOID(unsafe.Pointer(&bs))
 	// cgo call
