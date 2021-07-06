@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/sciter-sdk/go-sciter"
-	"github.com/sciter-sdk/go-sciter/window"
+	"github.com/105th/go-sciter"
+	"github.com/105th/go-sciter/window"
 )
 
 const (
@@ -24,7 +24,7 @@ const (
     </form>
   </div>
   <div id="output">
-    
+
   </div>
 </body>
 </html>
