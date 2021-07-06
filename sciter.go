@@ -1013,7 +1013,7 @@ func (e *Element) ScrollToView(flag SCITER_SCROLL_FLAGS) error {
 //   \return \b #SCDOM_RESULT SCAPI
 func (e *Element) Update(forceRender bool) error {
 	// args
-	var cforceRender C.BOOL = C.FALSE
+	var cforceRender C.SBOOL = C.FALSE
 	if forceRender {
 		cforceRender = C.TRUE
 	}
@@ -1045,7 +1045,7 @@ func (e *Element) ReleaseCapture() error {
 // Get HWINDOW of containing window.
 func (e *Element) GetHwnd(rootWindow bool) (hwnd C.HWINDOW, err error) {
 	// args
-	var crootWindow C.BOOL = C.FALSE
+	var crootWindow C.SBOOL = C.FALSE
 	if rootWindow {
 		crootWindow = C.TRUE
 	}
@@ -1273,7 +1273,7 @@ func (e *Element) SetState(bitsToSet, bitsToClear ElementState, updateView bool)
 	// args
 	cbitsToSet := C.UINT(bitsToSet)
 	cbitsToClear := C.UINT(bitsToClear)
-	var cupdateView C.BOOL = C.FALSE
+	var cupdateView C.SBOOL = C.FALSE
 	if updateView {
 		cupdateView = C.TRUE
 	}
@@ -1726,7 +1726,7 @@ func (e *Element) HttpRequest(url string, dataType SciterResourceType, requestTy
 //  \param[out] pVisible \b LPBOOL, visibility state.
 func (e *Element) IsVisible() bool {
 	// args
-	var v C.BOOL
+	var v C.SBOOL
 	// cgo call
 	C.SciterIsElementVisible(e.handle, &v)
 	if v == C.TRUE {
@@ -1743,7 +1743,7 @@ func (e *Element) IsVisible() bool {
 // \param[out] pEnabled \b LPBOOL, enabled state.
 func (e *Element) IsEnabled() bool {
 	// args
-	var v C.BOOL
+	var v C.SBOOL
 	// cgo call
 	C.SciterIsElementEnabled(e.handle, &v)
 	if v == C.TRUE {
