@@ -1,4 +1,5 @@
 #include <sciter-x.h>
+#include <string.h>
 
 typedef ISciterAPI* (SCAPI *SciterAPI_ptr)();
 
