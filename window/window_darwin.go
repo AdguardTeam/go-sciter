@@ -47,7 +47,7 @@ import (
 	"fmt"
 	"unsafe"
 
-	"github.com/AdguardTeam/go-sciter"
+	"github.com/sciter-sdk/go-sciter"
 )
 
 func New(creationFlags sciter.WindowCreationFlag, rect *sciter.Rect) (*Window, error) {

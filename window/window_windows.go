@@ -10,7 +10,7 @@ import (
 	"unsafe"
 
 	"github.com/lxn/win"
-	"github.com/AdguardTeam/go-sciter"
+	"github.com/sciter-sdk/go-sciter"
 )
 
 func New(creationFlags sciter.WindowCreationFlag, rect *sciter.Rect) (*Window, error) {

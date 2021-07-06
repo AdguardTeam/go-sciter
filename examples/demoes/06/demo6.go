@@ -5,8 +5,8 @@ import (
 	"log"
 	"path/filepath"
 
-	"github.com/AdguardTeam/go-sciter"
-	"github.com/AdguardTeam/go-sciter/window"
+	"github.com/sciter-sdk/go-sciter"
+	"github.com/sciter-sdk/go-sciter/window"
 )
 
 func load(root *sciter.Element) {

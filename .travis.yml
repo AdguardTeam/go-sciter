@@ -43,8 +43,8 @@ cache:
     - $GOPATH/pkg
 
 before_cache:
-  - rm -rf $GOPATH/src/github.com/AdguardTeam/go-sciter/*
-  - rm -rf $GOPATH/pkg/**/github.com/AdguardTeam/go-sciter
+  - rm -rf $GOPATH/src/github.com/sciter-sdk/go-sciter/*
+  - rm -rf $GOPATH/pkg/**/github.com/sciter-sdk/go-sciter
 
 install:
   - export SDK_PATH=https://raw.githubusercontent.com/c-smile/sciter-sdk/master

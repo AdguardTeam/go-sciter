@@ -2,8 +2,8 @@ package main
 
 import (
 	"log"
-	sciter "github.com/AdguardTeam/go-sciter"
-	window "github.com/AdguardTeam/go-sciter/window"
+	sciter "github.com/sciter-sdk/go-sciter"
+	window "github.com/sciter-sdk/go-sciter/window"
 )
 
 /*
