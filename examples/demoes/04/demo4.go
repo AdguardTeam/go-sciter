@@ -5,8 +5,8 @@ import (
 	"log"
 	"path/filepath"
 
-	"github.com/105th/go-sciter"
-	"github.com/105th/go-sciter/window"
+	"github.com/AdguardTeam/go-sciter"
+	"github.com/AdguardTeam/go-sciter/window"
 )
 
 //设置元素的处理程序

@@ -1,7 +1,7 @@
 package window
 
 import (
-	"github.com/105th/go-sciter"
+	"github.com/AdguardTeam/go-sciter"
 	"runtime"
 )
 
@@ -15,7 +15,7 @@ func (w *Window) run() {
 }
 
 // https://github.com/golang/go/wiki/LockOSThread
-// https://github.com/105th/go-sciter/issues/201
+// https://github.com/AdguardTeam/go-sciter/issues/201
 func init() {
 	runtime.LockOSThread()
 }

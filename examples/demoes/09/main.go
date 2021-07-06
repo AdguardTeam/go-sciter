@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/105th/go-sciter"
-	"github.com/105th/go-sciter/window"
+	"github.com/AdguardTeam/go-sciter"
+	"github.com/AdguardTeam/go-sciter/window"
 )
 
 func main() {

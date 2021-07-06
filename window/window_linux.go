@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"unsafe"
 
-	"github.com/105th/go-sciter"
+	"github.com/AdguardTeam/go-sciter"
 )
 
 // Linux/gtk3 must (at least) use sciter.DefaultWindowCreationFlag to create the main window correctly

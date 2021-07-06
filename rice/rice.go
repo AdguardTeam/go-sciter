@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/GeertJohan/go.rice"
-	"github.com/105th/go-sciter"
+	"github.com/AdguardTeam/go-sciter"
 )
 
 var (
