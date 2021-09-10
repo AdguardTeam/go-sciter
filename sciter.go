@@ -41,6 +41,8 @@ import (
 	"runtime"
 	"strings"
 	"unsafe"
+
+	_ "github.com/sciter-sdk/go-sciter/include"
 )
 
 type Sciter struct {
